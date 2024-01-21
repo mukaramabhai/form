@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <main>
+      <h3>Student Registration Form</h3>
+      <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-3">
+              <label for="fname">First Name:</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="Enter your first name.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-3">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="Enter your last name.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="mobile">Mobile</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="tel"
+                id="mobile"
+                name="mobile"
+                placeholder="Enter your mobile number.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="gender">Gender</label>
+            </div>
+            <div class="col-9">
+              <label for="male">
+                <input type="radio" id="male" name="gender" value="male" />
+                Male
+              </label>
+
+              <label for="female">
+                <input type="radio" id="female" name="gender" value="female" />
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="dob">Date Of Birth</label>
+            </div>
+            <div class="col-9">
+              <input type="date" id="dob" name="dob" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="address">Address</label>
+            </div>
+            <div class="col-9">
+              <textarea
+                id="address"
+                name="address"
+                rows="10"
+                placeholder="Enter your address.."
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="city">City</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Enter your city.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="area_pin">Area PIN</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="number"
+                id="area_pin"
+                name="area_pin"
+                placeholder="Enter your area pin.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="state">State</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="text"
+                id="state"
+                name="state"
+                placeholder="Enter your state.."
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="qualification">Qualification</label>
+            </div>
+            <div class="col-9">
+              <select id="qualification" name="qualification">
+                <option value="select">Select Qualification</option>
+                <option value="computer_science">Computer Science</option>
+                <option value="information_technology">
+                  Information Technology
+                </option>
+                <option value="computer_architecture">
+                  Computer Architecture
+                </option>
+                <option value="tele_communication">Tele Communication</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="specialization">Specialization</label>
+            </div>
+            <div class="col-9">
+              <div class="checkbox">
+                <input type="checkbox" name="" id="" />
+                <label for="">Computer Science</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <label for="">Information Technology</label>
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <label for="">Computer Architecture</label><br />
+              </div>
+              <div class="checkbox">
+                <input type="checkbox" />
+                <label for="">Tele COmmunication</label>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <label for="password">Password</label>
+            </div>
+            <div class="col-9">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password.."
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <input type="submit" class="button" value="Registerd" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
